@@ -6,22 +6,21 @@ require "kanji_money_formatter/version"
 Gem::Specification.new do |spec|
   spec.name          = "kanji_money_formatter"
   spec.version       = KanjiMoneyFormatter::VERSION
-  spec.authors       = ["Nobuchika Maruyama"]
+  spec.authors       = ["nmaruy27"]
   spec.email         = ["nmaruy27@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{数字を4桁区切りの漢字円表示にするgemです}
+  spec.homepage      = "https://github.com/nmaruy27/kanji_money_formatter"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
+  # if spec.respond_to?(:metadata)
+  #   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  # else
+  #   raise "RubyGems 2.0 or newer is required to protect against " \
+  #     "public gem pushes."
+  # end
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
