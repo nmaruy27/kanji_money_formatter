@@ -51,6 +51,3 @@ module KanjiMoneyFormatter
   module_function :get_cs_value
   module_function :num_to_k
 end
-
-puts KanjiMoneyFormatter.to_kanji(165019985398)
-puts KanjiMoneyFormatter.to_all_kanji(165019985398)
